@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fakerStructure .collection with custom functions 1`] = `
+Array [
+  Object {
+    "name": "Rosalyn Sanford",
+  },
+  Object {
+    "name": "Cecelia Gleason",
+  },
+  Object {
+    "name": "Chaya Zieme",
+  },
+]
+`;
+
+exports[`fakerStructure .collection with faker functions 1`] = `
+Array [
+  Object {
+    "firstName": "Eva",
+    "id": 61879,
+    "lastName": "McLaughlin",
+  },
+  Object {
+    "firstName": "Sibyl",
+    "id": 14903,
+    "lastName": "Feeney",
+  },
+  Object {
+    "firstName": "Holden",
+    "id": 89165,
+    "lastName": "Klocko",
+  },
+]
+`;
+
+exports[`fakerStructure .record with custom functions 1`] = `
+Object {
+  "13602": Object {
+    "name": "Lexi Boehm",
+  },
+  "2891": Object {
+    "name": "Henri Heathcote",
+  },
+  "78563": Object {
+    "name": "Alexandra Hansen",
+  },
+}
+`;
+
+exports[`fakerStructure .record with faker functions 1`] = `
+Object {
+  "20705": Object {
+    "firstName": "Quentin",
+    "id": 40099,
+    "lastName": "Purdy",
+  },
+  "78638": Object {
+    "firstName": "Eusebio",
+    "id": 40518,
+    "lastName": "Wiegand",
+  },
+  "932": Object {
+    "firstName": "Aurelie",
+    "id": 54009,
+    "lastName": "Leuschke",
+  },
+}
+`;
