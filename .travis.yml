@@ -4,7 +4,7 @@ node_js:
 install: npm ci
 before_script: npm run transpile
 script: npm run test
-deploy:
+deploy: # to deploy run, `npm version [major|minor|patch]` && `git push`
   provider: npm
   email: $NPM_EMAIL
   api_key: $NPM_TOKEN
