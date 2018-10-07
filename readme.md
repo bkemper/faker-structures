@@ -17,7 +17,7 @@ import { collection } from 'faker-structures'
 // define the structure
 const userCollection = collection({
   id: faker.random.number,
-  name: () => `${faker.name.firstName} ${faker.name.lastName}`
+  name: () => `${faker.name.firstName()} ${faker.name.lastName()}`
 })
 
 // generate a collection with three users
