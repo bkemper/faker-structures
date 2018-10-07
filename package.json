@@ -1,6 +1,6 @@
 {
   "name": "faker-structures",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Data structures with fake data from faker.js",
   "main": "index.js",
   "scripts": {
